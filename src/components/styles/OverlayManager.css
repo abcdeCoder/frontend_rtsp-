@@ -1,0 +1,117 @@
+/* .overlay-manager {
+  padding: 25px;
+  border: 1px solid #e1e1e1;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.overlay-manager label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.overlay-manager button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  outline: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.overlay-manager button:hover,
+.overlay-manager button:focus {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.overlay-manager button:active {
+  padding: 12px 20px;
+
+  background-color: #004492;
+  transform: scale(1);
+} */
+/* OverlayManager.css */
+
+.overlay-manager {
+  background-color: #004f56;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  position: absolute;
+    left: 53%;
+    top: 18%;
+}
+
+h2 {
+  color: #42ffef;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: table-footer-group;
+  margin-top: 10px;
+  color: #42ffef;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.saved-overlays {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.overlay-item {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.overlay-item p {
+  margin: 10px 0;
+}
+
+.overlay-item button {
+  margin-right: 10px;
+}

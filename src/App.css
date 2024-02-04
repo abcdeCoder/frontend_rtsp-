@@ -1,0 +1,57 @@
+
+
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  min-height: 100vh;
+  background-image: url(https://wallpaperaccess.com/full/6060317.jpg);
+}
+
+h1 {
+  background-color: #003840;
+  color: #73fffa;
+  padding: 10px 20px;
+  border-radius: 90px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 95%;
+  top: 90%;
+  
+}
+
+.VideoPlayer,
+.OverlayManager {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
